@@ -18,22 +18,18 @@ export default function RootLayout({
           <nav>
             <ul>
               <li>
-                <a href={'/'}>
-                  Home
+                <a href={'/example-1-without-supressed-hydration-warning'}>
+                  Example 1: Without supressed warning
                 </a>
               </li>
               <li>
-                <a href={'/with-supressed-hydration-warning'}>
-                  With supressed warning
+                <a href={'/example-2-with-supressed-hydration-warning'}>
+                  Example1: With supressed warning
                 </a>
               </li>
               <li>
-                <a href={'/without-supressed-hydration-warning'}>
-                  Without supressed warning
-                </a>
-              </li>
-              <li>
-                <a href={'/combined'}>
+                <a href={'/example-3-combined'}>
+                  Example 3:
                   Combined
                 </a>
               </li>

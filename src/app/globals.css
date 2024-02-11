@@ -50,6 +50,17 @@ nav ul {
   gap: 20px;
 }
 
+nav li a {
+  border: 1px solid #444;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+nav li a:hover {
+  background-color: #444;
+  color: white;
+}
+
 main {
   max-width: var(--max-width);
   margin: 0 auto;
